@@ -167,9 +167,94 @@ nav li a:hover{
   color: Gray;
   font-family: "Inter", sans-serif;
 }
+.button-1{
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+  margin-top: 1.4rem;
+
+}
+.button-1 button{
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 1.1rem;
+  color: #E02C6DDE;
+  font-weight: 700;
+  background-color: transparent;
+  gap: .4rem;
+  cursor: pointer;
+}
 
 
 
+.featured-products{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding: 0 0;
+  margin: 5rem 0;
+}
+.featured-products .img{
+  width: 40%;
+}
+.img img{
+  width: 100%;
+}
+.product-detels{
+  width:70%;
+}
+.product-detels .button button{
+  margin-top: .90rem;
+  padding: .80rem 1.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #E02C6D;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.product-detels .title{
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: var(--primarycolor);
+  margin-bottom: 1rem;
+
+}
+.product-detels .product-description{
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+footer{
+  background-color: #0A0826;
+  text-align: center;
+  color: #ffffff;
+}
+footer h4{
+  padding-top: 3rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+footer p{
+  font-size: .9rem;
+  margin-top: .1rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+}
+.social-icon{
+  display: flex;
+  justify-content: center;
+  padding-bottom:3rem ;
+  padding-top: 1rem;
+  gap: 1.3rem;
+  
+
+}
+.social-icon i{
+  cursor: pointer;
+}
 
 
 
